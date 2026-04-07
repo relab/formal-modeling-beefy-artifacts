@@ -1,0 +1,30 @@
+# Ignore Visual Studio Code directory
+.vscode/
+
+# Ignore .out files
+*.out
+*_apalache-out
+*tmp
+
+# Ignore folders named 'states'
+states/
+*.tlacache
+
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.fls
+
+# PDF output - usually a bad idea to keep this in Git
+*.pdf
+
+# Latexmk
+*.fdb_latexmk
+
+# SyncTeX
+*.synctex.gz
+
+# BibTeX
+*.bbl
+*.blg

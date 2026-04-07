@@ -1,3 +1,0 @@
-{
-    "tlaplus.tlc.modelChecker.options": "-workers auto -coverage 1"
-}
