@@ -610,8 +610,8 @@ L ==
     \*/\ \A b \in Blocks : WF_vars(UpdateBlock(b))
     /\ \A n \in CNodes : WF_vars(CastVote(n))
     /\ \A n \in CNodes : \A b \in Blocks : 
-            /\ WF_vars(UpdateGRANDPAView(n, b))
-            /\ WF_vars(UpdateBEEFYView(n, b))
+            /\ SF_vars(UpdateGRANDPAView(n, b))
+            /\ SF_vars(UpdateBEEFYView(n, b))
 
 (***************************************************************************)
 (* The overall specification of the BEEFY protocol.                        *)
